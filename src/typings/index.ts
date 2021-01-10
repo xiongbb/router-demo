@@ -1,14 +1,27 @@
 interface IState{
-    isAuth:boolean
+    uid:number,
+    hasAuth:boolean,
+    userRouters:Array<IRouterItem>
 }
 
 interface IUserNode{
     id:number;
-    name:String;
+    name:string;
     auth:Array<number>
+}
+
+interface IRouterItem{
+    id:number;
+    pid:number;
+    path:string;
+    name:string;
+    link?:string;
+    title:string;
+    children?:Array<IRouterItem>
 }
 
 export  {
     IState,
-    IUserNode
+    IUserNode,
+    IRouterItem
 }

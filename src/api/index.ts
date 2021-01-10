@@ -1,12 +1,12 @@
-import axios, { AxiosPromise } from "axios"
+import request, { AxiosPromise } from "axios";
+import { IRouterItem } from "../typings";
 
-import  request  from 'axios'
-import { IUserNode } from "../typings"
-
-export const loginByUserId = (id:number):AxiosPromise<IUserNode[]> =>request({
-    url: '/user_login_auth',
-    method: 'post',
+export const getUserRoters = (id: number): AxiosPromise<IRouterItem[]> => {
+  return  request({
+    url: "/user_login_auth",
+    method: "post",
     data: {
-       id   
-    }
-})
+      id,
+    },
+  })
+};

@@ -1,5 +1,7 @@
 import { IState } from "../typings";
 
 export default<IState>{
-    isAuth:false
+    uid:1,
+    hasAuth:false,
+    userRouters:[]
 }

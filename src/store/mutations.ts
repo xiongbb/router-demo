@@ -1,7 +1,10 @@
-import { IState } from "../typings";
+import { IRouterItem, IState } from "../typings";
 
 export default {
-    ['LoginByUserId'](state:IState,id:number){
-        state.isAuth=true
+    setAuth (state:IState,auth:boolean){
+        state.hasAuth=auth
+    },
+    setUserRouters (state:IState,userRouters:Array<IRouterItem>){
+        state.userRouters=userRouters
     }
 }
