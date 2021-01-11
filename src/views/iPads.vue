@@ -1,17 +1,11 @@
 <template>
-<div>iPads</div>
+  <h2 class="is-size-2">iPads</h2>
 </template>
 
 <script lang='ts'>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 export default defineComponent({
-  name: 'iPads',
-  props: {
-    
-  },
-  setup(props) {
-    
-  },
+  name: "iPads",
 });
 </script>
 <style>

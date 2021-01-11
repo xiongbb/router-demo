@@ -45,7 +45,7 @@ export const genrateRouter = (
     let router: RouteRecordRaw = {
       path: r.path,
       name: r.name,
-      component: () => import(`../views/${r.name}`),
+      component: () => import(`../views/${r.name}.vue`),
     };
 
     if (r.children) {

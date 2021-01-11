@@ -1,17 +1,11 @@
 <template>
-<div>Workstations</div>
+  <h2 class="is-size-2">Workstations</h2>
 </template>
 
 <script lang='ts'>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 export default defineComponent({
-  name: 'Workstations',
-  props: {
-    
-  },
-  setup(props) {
-    
-  },
+  name: "Workstations",
 });
 </script>
 <style>

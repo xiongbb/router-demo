@@ -1,17 +1,11 @@
 <template>
-<div>Surfaces</div>
+  <h2 class="is-size-2">Surfaces</h2>
 </template>
 
 <script lang='ts'>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 export default defineComponent({
-  name: 'Surfaces',
-  props: {
-    
-  },
-  setup(props) {
-    
-  },
+  name: "Surfaces",
 });
 </script>
 <style>

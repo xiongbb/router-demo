@@ -12,8 +12,8 @@ export const routerItem:Array<IRouterItem>=[
     {
         id:2,
         pid:1,
-        path:'desktops',
-        name:'Desktops',
+        path:'desktop',
+        name:'Desktop',
         link:'/computer/desktop',
         title:'Desktop'
     },
